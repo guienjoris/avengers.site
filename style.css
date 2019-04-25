@@ -105,11 +105,14 @@ h2{
     height:auto;
     background-color:rgba(255, 255, 255, 0.6);
     padding:5px;
-    margin:5px 70px;
+    margin:50px 70px;
     text-align:center;
     border: 1px solid black;
     box-shadow:1px 1px 2px black;
     border-radius:10px;
+    overflow:scroll;
+    min-width:560px;
+    align-items:center;
 
 }
 #body_cadre img{
@@ -117,7 +120,7 @@ h2{
     height:auto;
     margin:10px;
     position:relative;
-    left: 38%;
+    /*left: 38%;*/
     
 
 }
