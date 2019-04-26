@@ -79,8 +79,7 @@ h2{
     font-family: 'Open Sans', sans-serif;
     color:white;
     text-shadow:1px 1px 1px black;
-    display:flex;
-    justify-content:center;
+    
 }
 p,li,ul{
     font-weight:normal;
@@ -95,11 +94,7 @@ p,li,ul{
 .accueil_nav{
     text-decoration:underline black;
 }
-iframe{
-    box-shadow: 0px 5px 5px black;
-    margin:10px;
-    
-}
+
 
 #logo{
     background-image: url(./Avengers-Transparent.png);
@@ -118,7 +113,6 @@ iframe{
     flex-direction:column;
     width:80%;
     float:right;
-    height:auto;
     background-color:rgba(255, 255, 255, 0.7);
     padding:5px;
     margin:50px 70px;
@@ -126,7 +120,7 @@ iframe{
     border: 1px solid black;
     box-shadow:2px 2px 1px 1px black;
     box-shadow:-10px -10px 10px 10px rgba(255, 255, 204,0.7) inset;
-    border-radius: 10% / 15%;
+    border-top-left-radius: 25%;
     overflow:scroll;
     min-width:560px;
     max-height:1000px;
@@ -135,7 +129,6 @@ iframe{
 }
 #body_cadre img{
     width:20vw;
-    height:auto;
     margin:10px;
     position:relative;
     border-top:2px solid black;
